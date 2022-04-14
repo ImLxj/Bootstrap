@@ -15,12 +15,74 @@
     <h1>清华大学</h1>
     <h2>北京大学</h2>
     <h3>浙江大学</h3>
-    <!-- small标签是一个子元素标签可以让字体变得更小 -->
-    <h4>烟台科技学院<small>,欢迎你的到来</small></h4>
+    <!-- 在标题内还可以包含 <small> 标签或赋予 .small 类的元素，可以用来标记副标题。 -->
+    <h4>烟台科技学院<small> 欢迎你的到来</small></h4>
 
-    <p>我是一个段落</p>
+    <!-- 页面主题:
+      Bootstrap 将全局 font-size 设置为 14px，
+      line-height 设置为 1.428。
+      这些属性直接赋予 <body> 元素和所有段落元素。
+      另外，<p> （段落）元素还被设置了等于 1/2 行高（即 10px）的底部外边距（margin）。
+    -->
+    <p>
+      我是一个段落,我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落我是一个段落
+    </p>
+
+    <!-- 中心内容:通过添加 .lead 类可以让段落突出显示 -->
     <p class="lead">我是加了样式的段落,我是加了样式的段落,我是加了样式的段落,我是加了样式的段落,我是加了样式的段落,</p>
-    <p></p>
+
+    <!-- 内联文本元素:
+      <mark></mark> 标签可以让文本突出显示
+    -->
+    <p>you can use the mark tag to <mark>highlight</mark> text.</p>
+
+    <!-- 
+      被删除的文本:
+      对于被删除的文本使用 <del> 标签。
+     -->
+    <p><del>This line of text is meant to be treated as deleted text.</del></p>
+
+    <!-- 对于没用的文本使用 <s> 标签。 -->
+    <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+
+    <!-- 额外插入的文本使用 <ins> 标签。 -->
+    <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+
+    <!-- 为文本添加下划线，使用 <u> 标签。 -->
+    <p><u>This line of text will render as underlined</u></p>
+
+    <!-- 通过增加 font-weight 值强调一段文本。 -->
+    <p>113131351351313515<strong>rendered as bold text</strong></p>
+
+    <!-- 用斜体强调一段文本。 -->
+    <p>sdada adw <em>rendered as italicized text</em></p>
+
+    <!-- 对其 -->
+    <p class="text-left">Left aligned text.</p>
+    <p class="text-center">Center aligned text.</p>
+    <p class="text-right">Right aligned text.</p>
+    <p class="text-justify">Justified text.Justified text.Justified text.Justified text.Justified text.Justified
+      text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified text.Justified
+      text.Justified text.Justified text.Justified text.Justified text.</p>
+    <p class="text-nowrap">No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No
+      wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap text.No wrap
+      text.No wrap text.No wrap text.</p>
+
+    <!-- 改变字体大小写 -->
+    <!-- 将字体变成小写 -->
+    <p class="text-lowercase">Lowercased text.</p>
+    <!-- 将字体变成大写 -->
+    <p class="text-uppercase">Uppercased text.</p>
+    <!-- 当文本的首字母大写 -->
+    <p class="text-capitalize">Capitalized text.</p>
+
+    <!-- 地址 -->
+    <address>
+      <strong>烟台科技学院</strong>
+      烟台市,蓬莱区<br>
+      xxxxxxxxxxx
+      <abbr title="Phone">P: 88888 8888</abbr>
+    </address>
   </div>
 </body>
 
